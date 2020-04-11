@@ -1,0 +1,28 @@
+<div class="home-container">
+  <section class="menu-links">
+    {{menu_links}}
+    <button>
+      <span>{{value}}</span>
+    </button>
+    {{/menu_links}}
+  </section>
+
+  <div class="header-form-container">
+    <section class="header-section">
+      {{heading}}
+      <h1>{{value}}</h1>
+      {{/heading}}
+    </section>
+
+    <section class="form-section">
+      <input type="text" name="email" placeholder="name@email.com" />
+      <button><span>Get Your Demo</span></button>
+    </section>
+  </div>
+
+  <section class="image-section">
+    {{ images }}
+    <img src="{{ value }}" />
+    {{ /images }}
+  </section>
+</div>

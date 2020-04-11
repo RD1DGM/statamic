@@ -1,0 +1,19 @@
+sections:
+  home:
+    display: 'Home Page'
+    fields:
+      menu_links:
+        type: replicator
+        display: 'Menu Links'
+      images:
+        restrict: false
+        type: assets
+        display: Images
+      heading_1:
+        type: text
+        display: 'Heading 1'
+      email_input:
+        type: form
+        display: 'Email Input'
+taxonomies: true
+title: 'Home Page'
